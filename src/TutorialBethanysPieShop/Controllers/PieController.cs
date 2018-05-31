@@ -24,5 +24,11 @@ namespace TutorialBethanysPieShop.Controllers
         {
             return View(_pieRepository.Pies);
         }
+
+        public ViewResult Index()
+        {
+            ViewBag.Message = "Welcome to Bethany's Pie Shop";
+            return View();
+        }
     }
 }

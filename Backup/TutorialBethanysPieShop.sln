@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C02642D-9145-4DCB-8C0B-A02F74B11448}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E594213-3ED3-4ECB-9F21-283D2D2D757C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorialBethanysPieShop", "src\TutorialBethanysPieShop\TutorialBethanysPieShop.csproj", "{86C5F411-1AC2-42D1-8EBB-51EEE24493BE}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TutorialBethanysPieShop", "src\TutorialBethanysPieShop\TutorialBethanysPieShop.xproj", "{86C5F411-1AC2-42D1-8EBB-51EEE24493BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,8 +28,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86C5F411-1AC2-42D1-8EBB-51EEE24493BE} = {6C02642D-9145-4DCB-8C0B-A02F74B11448}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D58133E5-E6DA-4A98-8A9C-F8C8A59EFDB1}
 	EndGlobalSection
 EndGlobal
