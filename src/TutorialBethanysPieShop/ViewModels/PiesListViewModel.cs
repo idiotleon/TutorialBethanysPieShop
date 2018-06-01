@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using TutorialBethanysPieShop.Models;
 
-namespace TutorialBethanysPieShop.ViewModel
+namespace TutorialBethanysPieShop.ViewModels
 {
     public class PiesListViewModel
     {
